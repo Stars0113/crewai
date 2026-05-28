@@ -1,4 +1,3 @@
-$gitignoreContent = @"
 # 虚拟环境
 .venv/
 env/
@@ -19,6 +18,3 @@ output/
 __pycache__/
 *.pyc
 *.pyo
-"@
-
-Set-Content -Path ".gitignore" -Value $gitignoreContent -Encoding UTF8
