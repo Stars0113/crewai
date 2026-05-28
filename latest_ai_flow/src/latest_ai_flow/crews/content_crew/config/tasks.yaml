@@ -1,0 +1,8 @@
+# src/latest_ai_flow/crews/content_crew/config/tasks.yaml
+research_task:
+  description: >
+    对 {topic} 进行深入研究。使用网络搜索查找当前、可信的信息。当前年份是 2026 年。
+  expected_output: >
+    一份包含清晰章节的 Markdown 报告：关键趋势、值得关注的工具或公司，以及行业影响。目标字数 800–1200 字。不要在整个文档外包裹代码块。
+  agent: researcher
+  output_file: output/report.md
