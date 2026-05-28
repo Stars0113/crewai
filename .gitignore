@@ -18,3 +18,18 @@ output/
 __pycache__/
 *.pyc
 *.pyo
+
+# 日志文件
+*.log
+
+# 构建产物
+dist/
+build/
+*.egg-info/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
